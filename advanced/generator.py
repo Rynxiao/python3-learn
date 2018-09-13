@@ -38,7 +38,7 @@ while True:
 		print('g:', x)
 	except StopIteration as e:
 		print('Generator return value:', e.value)
-		break;
+		break
 
 def odd():
 	print('step 1')
